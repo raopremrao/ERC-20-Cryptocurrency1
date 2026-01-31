@@ -9,9 +9,6 @@ contract ManualToken {
         return "Manual Token";
     }
 
-    // Above is same as:
-    // string public name = "Manual Token";
-
     function totalSupply() public pure returns (uint256) {
         return 100 ether;
     }
